@@ -1,0 +1,110 @@
+/******************************************************************************\
+FILE:           stimuli.zm
+AUTHOR:         Theo Veenker <theo.veenker@beexy.nl>
+ADAPTED BY:     -
+
+DESCRIPTION:
+
+Defines the formats of item table(s) and provides the actual content of
+the item table(s) i.e. stimulus information.
+
+
+HISTORY:
+2012-04-19 TV   Created.
+
+\******************************************************************************/
+
+
+// Symbolic definition of item type.
+enum ItemType
+{
+    LaagFrequent,                     
+    MiddelFrequent,                     
+    HoogFrequent,                 
+}
+
+
+// Item table record.
+record TestItem
+{
+    int         id;             // item id
+    ItemType    type;           // item type
+    string      imgfn;          // stimulus filename
+}
+
+
+// Practice item table.
+//   index: item number
+TestItem[..] prac_items =
+{
+    {1,         LaagFrequent,      "schaap.png"},
+    {2,         LaagFrequent,   	"stropdas.png"},
+    {3,         LaagFrequent,      "potlood.png"},
+};
+
+
+// Test item table.
+//   index: item number
+TestItem[..] test_items =
+{
+   {1,LaagFrequent,"anker.png"},
+	{2,LaagFrequent,"arm.png"},
+	{3,LaagFrequent,"banaan.png"},
+	{4,LaagFrequent,"bank.png"},
+	{5,LaagFrequent,"bed.png"},
+	{6,LaagFrequent,"bel.png"},
+	{7,LaagFrequent,"blad.png"},
+	{8,LaagFrequent,"bloem.png"},
+	{9,LaagFrequent,"boek.png"},
+	{10,LaagFrequent,"boom.png"},
+	{11,LaagFrequent,"bril.png"},
+	{12,LaagFrequent,"citroen.png"},
+	{13,LaagFrequent,"deegroller.png"},
+	{14,LaagFrequent,"fiets.png"},
+	{15,LaagFrequent,"giraffe.png"},
+	{16,LaagFrequent,"gitaar.png"},
+	{17,LaagFrequent,"glas.png"},
+	{18,LaagFrequent,"gloeilamp.png"},
+	{19,LaagFrequent,"harp.png"},
+	{20,LaagFrequent,"jurk.png"},
+	{21,LaagFrequent,"kangoeroe.png"},
+	{22,LaagFrequent,"kanon.png"},
+	{23,LaagFrequent,"kerk.png"},
+	{24,LaagFrequent,"knijper.png"},
+	{25,LaagFrequent,"knoop.png"},
+	{26,LaagFrequent,"kom.png"},
+	{27,LaagFrequent,"kreeft.png"},
+	{28,LaagFrequent,"kruk.png"},
+	{29,LaagFrequent,"liniaal.png"},
+	{30,LaagFrequent,"neus.png"},
+	{31,LaagFrequent,"oog.png"},
+	{32,LaagFrequent,"oor.png"},
+	{33,LaagFrequent,"peer.png"},
+	{34,LaagFrequent,"pen.png"},
+	{35,LaagFrequent,"pistool.png"},
+	{36,LaagFrequent,"pompoen.png"},
+	{37,LaagFrequent,"schaar.png"},
+	{38,LaagFrequent,"schommelstoel.png"},
+	{39,LaagFrequent,"schroevendraaier.png"},
+	{40,LaagFrequent,"sleutel.png"},
+	{41,LaagFrequent,"sneeuwpop.png"},
+	{42,LaagFrequent,"spijker.png"},
+	{43,LaagFrequent,"spinnenwiel.png"},
+	{44,LaagFrequent,"strijkplank.png"},
+	{45,LaagFrequent,"strik.png"},
+	{46,LaagFrequent,"tafel.png"},
+	{47,LaagFrequent,"tomaat.png"},
+	{48,LaagFrequent,"trompet.png"},
+	{49,LaagFrequent,"vlag.png"},
+	{50,LaagFrequent,"voet.png"},
+	{51,LaagFrequent,"vrachtwagen.png"},
+	{52,LaagFrequent,"wasbeer.png"},
+	{53,LaagFrequent,"waterput.png"},
+	{54,LaagFrequent,"wiel.png"},
+	{55,LaagFrequent,"wortel.png"},
+	{56,LaagFrequent,"zaag.png"},
+	{57,LaagFrequent,"zebra.png"},
+	{58,LaagFrequent,"zeilboot.png"},
+	{59,LaagFrequent,"zon.png"},
+	{60,LaagFrequent,"zwaan.png"},
+};
