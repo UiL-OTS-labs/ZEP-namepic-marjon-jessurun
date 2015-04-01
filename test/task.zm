@@ -133,10 +133,9 @@ Block task
         on_event:entry()
         {
             // Do not randomize test items table.
-            //if (shuffle_test_items() != OK) terminate;
+            if (shuffle_test_items() != OK) terminate;
 
             num_cycles = test_items.size;
-//            num_cycles = 3;
 
             // Prepare test page: progress bar enabled, prompt disabled.
             test_page.setup(num_cycles, false);
