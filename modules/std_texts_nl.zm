@@ -46,10 +46,10 @@ const string 	INTRODUCTION_TEXT 				=
                 "<i>Druk op de <b>spatiebalk</b> om verder te gaan</i>";
 
 const string END_OF_PRACTICE_TEXT = 
-				"Einde oefning\n"
-				"Als je nu nog vragen hebt stel ze aan de proefleider.\n"
+				"Einde oefening\n"
+				"Als u nu nog vragen hebt stel ze aan de proefleider.\n"
 				"\n"
                 "<i>Druk op de <b>spatiebalk</b> om verder te gaan</i>";
 
 const string OVERLAY_TEXT =
-"Benoem elk plaatje. Druk spatiebalk om verder te gaan.";
+"Benoemt u elk plaatje. Druk spatiebalk om verder te gaan.";
