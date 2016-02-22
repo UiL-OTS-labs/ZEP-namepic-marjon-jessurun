@@ -34,22 +34,18 @@ const string    WELCOME_TEXT                    = "Welkom";
 const string    THANK_YOU_TEXT                  = "Einde experiment\n\nHartelijk dank!";
 
 const string 	INTRODUCTION_TEXT 				= 
-				"<b>Beste deelnemer,</b>\n"
-                "\n"
-                "Dank u voor het deelnemen in dit experiment"
-                "\n"
-                "Je gaat nu plaatjes laten zien die één voor één worden getoond. "
-                "Uw taak is om elke plaatje te benoemen.\n"
-                "\n"
-                "Eerst doen we een korte oefening\n"
-                "\n"
-                "<i>Druk op de <b>spatiebalk</b> om verder te gaan</i>";
+				"<b>Beste deelnemer,</b>\n\n"
+"Bedankt voor het deelnemen aan dit experiment.\n"
+"Zo meteen verschijnt er telkens een foto op het beeldscherm. Het is de bedoeling om elke foto te benoemen.\n"
+"Er volgt eerst een korte oefening.\n\n"
+"Druk op de <b>spatiebalk</b> om verder te gaan";
+
 
 const string END_OF_PRACTICE_TEXT = 
-				"Einde oefening\n"
-				"Als u nu nog vragen hebt stel ze aan de proefleider.\n"
-				"\n"
-                "<i>Druk op de <b>spatiebalk</b> om verder te gaan</i>";
+				"<b>Einde oefening</b>\n\n"
+"Als er nog vragen zijn dan kunnen deze nu aan de proefleider gesteld worden.\n";
+
 
 const string OVERLAY_TEXT =
-"Benoemt u elk plaatje. Druk spatiebalk om verder te gaan.";
+"Benoem elke foto. Druk spatiebalk om verder te gaan.";
+
