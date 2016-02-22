@@ -16,7 +16,9 @@ This experiment script is released under the terms of the GNU General Public Lic
 ## Request details
 # Author
 C. van Run
+
 # Client
-Margriet Wijngaarden
-# Supervisor
-Frank Wijnen
+Marjon Jessurun
+
+# Supervisor(s)
+prof. dr. Frank Wijnen and prof. dr. Ellen Gerrits
