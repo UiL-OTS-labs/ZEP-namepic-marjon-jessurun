@@ -25,7 +25,7 @@ const string    DATABASE_NUMBER                 = "01";
 
 
 // ID of default researcher.
-const string    DEFAULT_RESEARCHER_ID           = "ASH_KETCHUP"; // John Doe
+const string    DEFAULT_RESEARCHER_ID           = "Marjon_Jessurun"; // John Doe
 
 
 // Whether experiment record, researcher record and group record should 
