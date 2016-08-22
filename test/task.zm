@@ -27,7 +27,7 @@ HISTORY:
 
 \******************************************************************************/
 
-//requires 1.10;
+//requires 1.12;
 
 plugin zep_file;
 import std_sound_input_device;
